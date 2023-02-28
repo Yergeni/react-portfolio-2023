@@ -19,6 +19,7 @@ function Testimonials() {
 							<img
 								src="https://media.licdn.com/dms/image/C4E03AQFPGACeAoYvPw/profile-displayphoto-shrink_200_200/0/1581476270626?e=1682553600&v=beta&t=g_QMW36lD_amhCeyTlwt1CEd3rxQ2dxX2yaDe8UkU2o"
 								className="w-32 rounded-full shadow-lg dark:shadow-black/30"
+								alt="alejo"
 							/>
 						</div>
 						<div className="flex justify-center">
