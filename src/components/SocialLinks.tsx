@@ -2,16 +2,10 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-
-type Link = {
-	id: number;
-	child: JSX.Element;
-	href: string;
-	style?: string;
-};
+import { LinkType } from "./common/types";
 
 function SocialLinks() {
-	const links: Link[] = [
+	const links: LinkType[] = [
 		{
 			id: 1,
 			child: (
@@ -20,7 +14,7 @@ function SocialLinks() {
 				</>
 			),
 			href: "https://www.linkedin.com/in/cabranesyergeni",
-			style: "rounded-tr-md",
+			style: "rounded-tr-md bg-blue-600",
 		},
 		{
 			id: 2,
@@ -30,6 +24,7 @@ function SocialLinks() {
 				</>
 			),
 			href: "mailto:yergenis@gmail.com",
+			style: "bg-gray-500"
 		},
 		{
 			id: 3,
@@ -39,7 +34,7 @@ function SocialLinks() {
 				</>
 			),
 			href: "https://drive.google.com/file/d/174zrzAdQTZCc3Rxi8uXDlzU4RPN0Hj-A/view?usp=sharing",
-			style: "rounded-br-md",
+			style: "rounded-br-md bg-emerald-600",
 		},
 	];
 
@@ -47,7 +42,7 @@ function SocialLinks() {
 		<div className="hidden lg:flex flex-col top-[45%] left-0 fixed z-40">
 			<ul>
 				{links.map(({ id, child, href, style }) => (
-					<li key={id} className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] ${style} hover:ml-[-5px] hover:rounded-md duration-300 bg-gray-500`}>
+					<li key={id} className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] ${style} hover:ml-[-5px] hover:rounded-md duration-300`}>
 						<a
 							href={href}
 							target="_blank"

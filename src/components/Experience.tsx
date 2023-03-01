@@ -72,14 +72,14 @@ function Experience() {
 	return (
 		<Element
 			name="experience"
-			className="w-full h-full bg-gradient-to-b py-8 from-gray-800 to-black"
+			className="w-full h-full px-4 py-8 bg-gradient-to-b from-gray-800 to-black"
 		>
 			<div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
 				<SectionTitle title="Experience">
 					<p className="py-6">These are some technologies I've worked with</p>
 				</SectionTitle>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

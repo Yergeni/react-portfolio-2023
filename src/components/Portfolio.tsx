@@ -34,13 +34,6 @@ function Portfolio() {
 			demoLink: "https://web-protect-staging.nowlsp.com/landing/",
 		},
 		{
-			src: netflixClone,
-			title: "Netflix Basic Clone",
-			alt: "netflixClone",
-			demoLink: "https://netflix-clone-e03a2.web.app/",
-			codeLink: "https://github.com/Yergeni/basic-netflix-clone",
-		},
-		{
 			src: crownStudy,
 			title: "Crown Clothes",
 			alt: "crownStudy",
@@ -53,6 +46,13 @@ function Portfolio() {
 			alt: "covid19Tracker",
 			demoLink: "https://covi19-tracker-a9817.web.app/",
 			codeLink: "https://github.com/Yergeni/covi19-tracker",
+		},
+		{
+			src: netflixClone,
+			title: "Netflix Basic Clone",
+			alt: "netflixClone",
+			demoLink: "https://netflix-clone-e03a2.web.app/",
+			codeLink: "https://github.com/Yergeni/basic-netflix-clone",
 		},
 		{
 			src: discordClone,
@@ -82,7 +82,7 @@ function Portfolio() {
 					</SectionTitle>
 				</div>
 
-				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0">
+				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0">
 					{projects.map(({ src, title, alt, demoLink, codeLink }) => (
 						<div
 							key={alt}
