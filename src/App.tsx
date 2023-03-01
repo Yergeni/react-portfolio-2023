@@ -67,6 +67,7 @@ function App() {
 								smooth
 								duration={500}
 								spy
+								offset={-32}
 								activeClass="text-white font-bold"
 							>
 								{link}
