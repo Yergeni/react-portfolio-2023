@@ -8,7 +8,7 @@ function ShowMore({ text }: { text: string }) {
 		<>
 			<p className="mb-4 text-lg italic text-center">
 				<QuoteIcon />
-				{showMore ? text : text.slice(text.length / 2)}
+				{showMore ? text : text.slice(0, text.length / 2)}
 				<span
 					className="inline-block rounded px-2 pt-2.5 pb-2 text-xs font-medium leading-normal text-blue-400 cursor-pointer"
 					onClick={() => setShowMore((prev) => !prev)}
