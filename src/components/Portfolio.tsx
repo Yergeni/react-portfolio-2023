@@ -8,6 +8,8 @@ import discordClone from "assets/portfolio/discordClone.png";
 import netflixClone from "assets/portfolio/netflixClone.png";
 import noProtectCMS from "assets/portfolio/noProtectCMS.png";
 import noProtectWebPortal from "assets/portfolio/noProtectWebPortal.png";
+import hangmanGame from "assets/portfolio/hangmanGame.png";
+
 import SectionTitle from "./common/SectionTitle";
 
 import { FaCode } from "react-icons/fa";
@@ -39,6 +41,13 @@ function Portfolio() {
 			alt: "crownStudy",
 			demoLink: "https://crwn-study.herokuapp.com/",
 			codeLink: "https://github.com/Yergeni/crwn-clothing",
+		},
+		{
+			src: hangmanGame,
+			title: "Practice & Fun (Hangman)",
+			alt: "hangman",
+			demoLink: "https://yero-hangman.netlify.app/",
+			codeLink: "https://github.com/Yergeni/hangman",
 		},
 		{
 			src: covid19Tracker,
