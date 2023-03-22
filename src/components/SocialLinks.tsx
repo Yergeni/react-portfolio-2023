@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 import { LinkType } from "./common/types";
 
 function SocialLinks() {
@@ -24,10 +25,20 @@ function SocialLinks() {
 				</>
 			),
 			href: "mailto:yergenis@gmail.com",
-			style: "bg-gray-500"
+			style: "bg-gray-500",
 		},
 		{
 			id: 3,
+			child: (
+				<>
+					Resume <FaGithub size={30} />
+				</>
+			),
+			href: "https://github.com/Yergeni",
+			style: "bg-slate-900",
+		},
+		{
+			id: 4,
 			child: (
 				<>
 					Resume <BsFillPersonLinesFill size={30} />
@@ -42,7 +53,10 @@ function SocialLinks() {
 		<div className="hidden lg:flex flex-col top-[45%] left-0 fixed z-40">
 			<ul>
 				{links.map(({ id, child, href, style }) => (
-					<li key={id} className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] ${style} hover:ml-[-5px] hover:rounded-md duration-300`}>
+					<li
+						key={id}
+						className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] ${style} hover:ml-[-5px] hover:rounded-md duration-300`}
+					>
 						<a
 							href={href}
 							target="_blank"

@@ -5,6 +5,7 @@ import { Element } from "react-scroll";
 import { FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 import { LinkType } from "./common/types";
 
 function About() {
@@ -13,7 +14,7 @@ function About() {
 			id: 1,
 			child: (
 				<>
-					LinkedIn <FaLinkedin size={30} className="ml-2" />
+					<FaLinkedin size={40} />
 				</>
 			),
 			href: "https://www.linkedin.com/in/cabranesyergeni",
@@ -23,7 +24,7 @@ function About() {
 			id: 2,
 			child: (
 				<>
-					Mail <HiOutlineMail size={30} className="ml-2" />
+					<HiOutlineMail size={40} />
 				</>
 			),
 			href: "mailto:yergenis@gmail.com",
@@ -33,7 +34,17 @@ function About() {
 			id: 3,
 			child: (
 				<>
-					Resume <BsFillPersonLinesFill size={30} className="ml-2" />
+					<FaGithub size={40} />
+				</>
+			),
+			href: "https://github.com/Yergeni",
+			style: "bg-slate-800",
+		},
+		{
+			id: 4,
+			child: (
+				<>
+					<BsFillPersonLinesFill size={40} />
 				</>
 			),
 			href: "https://drive.google.com/file/d/174zrzAdQTZCc3Rxi8uXDlzU4RPN0Hj-A/view?usp=sharing",
@@ -60,12 +71,12 @@ function About() {
 					<li>+1 786 520 0036</li>
 					<li>yergenis@gmail.com</li>
 				</ul>
-				<div className="flex flex-row items-center pt-8 mx-auto space-x-3 lg:hidden">
+				<div className="flex flex-row items-center pt-8 mx-auto space-x-4 lg:hidden">
 					{links.map(({ id, child, href, style }) => (
 						<a
 							key={id}
 							href={href}
-							className={`flex justify-center items-center p-2 rounded-md ${style} hover:scale-105 duration-200`}
+							className={`flex justify-center items-center p-3 rounded-md ${style} hover:scale-105 duration-200`}
 							rel="noreferrer"
 							target="_blank"
 						>
