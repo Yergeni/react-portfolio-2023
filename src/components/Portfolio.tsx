@@ -9,6 +9,7 @@ import netflixClone from "assets/portfolio/netflixClone.png";
 import noProtectCMS from "assets/portfolio/noProtectCMS.png";
 import noProtectWebPortal from "assets/portfolio/noProtectWebPortal.png";
 import hangmanGame from "assets/portfolio/hangmanGame.png";
+import notes from "assets/portfolio/notes.png";
 
 import SectionTitle from "./common/SectionTitle";
 
@@ -48,6 +49,13 @@ function Portfolio() {
 			alt: "hangman",
 			demoLink: "https://yero-hangman.netlify.app/",
 			codeLink: "https://github.com/Yergeni/hangman",
+		},
+		{
+			src: notes,
+			title: "Practice CRUD operations",
+			alt: "notes",
+			demoLink: "https://yero-notes.netlify.app/",
+			codeLink: "https://github.com/Yergeni/notes-with-tags",
 		},
 		{
 			src: covid19Tracker,
