@@ -17,7 +17,7 @@ const testimonials: TestimonialType[] = [
 	{
 		id: 1,
 		image:
-			"https://media.licdn.com/dms/image/C4E03AQFPGACeAoYvPw/profile-displayphoto-shrink_200_200/0/1581476270626?e=1682553600&v=beta&t=g_QMW36lD_amhCeyTlwt1CEd3rxQ2dxX2yaDe8UkU2o",
+			"https://media.licdn.com/dms/image/C4E03AQFPGACeAoYvPw/profile-displayphoto-shrink_200_200/0/1581476270626?e=1687996800&v=beta&t=lLKSGZiJNSfVs5Qw3hPHGmGZhbiP-6fLblml5wLJNAw",
 		author: "Alejandro Hernandez",
 		linkdin: "https://www.linkedin.com/in/al3j0/",
 		position: "SRE at Capital One",
