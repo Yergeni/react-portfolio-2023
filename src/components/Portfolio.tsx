@@ -4,7 +4,8 @@ import parkosWebpay from "assets/portfolio/parkosWebpay.png";
 import covid19Tracker from "assets/portfolio/covid19Tracker.png";
 import amazonClone from "assets/portfolio/amazonClone.png";
 import crownStudy from "assets/portfolio/crownStudy.png";
-import discordClone from "assets/portfolio/discordClone.png";
+// import discordClone from "assets/portfolio/discordClone.png";
+import coduxMovies from "assets/portfolio/coduxMovies.png";
 import netflixClone from "assets/portfolio/netflixClone.png";
 import noProtectCMS from "assets/portfolio/noProtectCMS.png";
 import noProtectWebPortal from "assets/portfolio/noProtectWebPortal.png";
@@ -21,8 +22,8 @@ function Portfolio() {
 		{
 			src: parkosWebpay,
 			title: "ParkOS Web Pay",
-			alt: "parkosWebpay",
-			demoLink: "https://pay.reefparking.com/park/2278",
+			alt: "Parkos Webpay",
+			demoLink: "https://pay.reefparking.com",
 		},
 		{
 			src: noProtectCMS,
@@ -33,51 +34,58 @@ function Portfolio() {
 		{
 			src: noProtectWebPortal,
 			title: "NO Protect Web Portal",
-			alt: "noProtectWebPortal",
+			alt: "NO Protect Web Portal",
 			demoLink: "https://web-protect-staging.nowlsp.com/landing/",
 		},
 		{
 			src: crownStudy,
 			title: "Crown Clothes",
-			alt: "crownStudy",
+			alt: "Crown Study",
 			demoLink: "https://crwn-study.herokuapp.com/",
 			codeLink: "https://github.com/Yergeni/crwn-clothing",
 		},
 		{
 			src: hangmanGame,
 			title: "Practice & Fun (Hangman)",
-			alt: "hangman",
+			alt: "Hangman",
 			demoLink: "https://yero-hangman.netlify.app/",
 			codeLink: "https://github.com/Yergeni/hangman",
 		},
 		{
 			src: notes,
 			title: "Practice CRUD operations",
-			alt: "notes",
+			alt: "Notes",
 			demoLink: "https://yero-notes.netlify.app/",
 			codeLink: "https://github.com/Yergeni/notes-with-tags",
 		},
 		{
 			src: covid19Tracker,
 			title: "COVID 19 Tracker",
-			alt: "covid19Tracker",
+			alt: "Covid19 Tracker",
 			demoLink: "https://covi19-tracker-a9817.web.app/",
 			codeLink: "https://github.com/Yergeni/covi19-tracker",
 		},
 		{
+			src: coduxMovies,
+			title: "Codux Movies",
+			alt: "Codux Movies",
+			demoLink: "https://yero-codux-movies.netlify.app/",
+			codeLink: "https://github.com/Yergeni/codux-movies",
+		},
+		{
 			src: netflixClone,
 			title: "Netflix Basic Clone",
-			alt: "netflixClone",
+			alt: "Netflix Clone",
 			demoLink: "https://netflix-clone-e03a2.web.app/",
 			codeLink: "https://github.com/Yergeni/basic-netflix-clone",
 		},
-		{
-			src: discordClone,
-			title: "Discord Basic Clone",
-			alt: "discordClone",
-			demoLink: "https://discord-clone-c3c10.web.app/",
-			codeLink: "https://github.com/Yergeni/discord-clone",
-		},
+		// {
+		// 	src: discordClone,
+		// 	title: "Discord Basic Clone",
+		// 	alt: "Discord Clone",
+		// 	demoLink: "https://discord-clone-c3c10.web.app/",
+		// 	codeLink: "https://github.com/Yergeni/discord-clone",
+		// },
 		{
 			src: amazonClone,
 			title: "Amazon Basic Clone",
