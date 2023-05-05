@@ -6,11 +6,11 @@ function ShowMore({ text }: { text: string }) {
 
 	return (
 		<>
-			<p className="mb-4 text-lg italic text-center">
+			<p className="mb-4 text-lg italic text-left tracking-wide">
 				<QuoteIcon />
-				{showMore ? text : text.slice(0, text.length / 2)}
+				{showMore ? text : text.slice(0, 150)}
 				<span
-					className="inline-block rounded px-2 pt-2.5 pb-2 text-xs font-medium leading-normal text-blue-400 cursor-pointer"
+					className="inline-block px-2 pt-2.5 pb-2 text-xs font-medium leading-normal text-blue-400 cursor-pointer"
 					onClick={() => setShowMore((prev) => !prev)}
 				>
 					{showMore ? "show less" : "...show more"}

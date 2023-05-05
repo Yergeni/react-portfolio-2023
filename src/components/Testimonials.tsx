@@ -33,7 +33,18 @@ const testimonials: TestimonialType[] = [
 	{
 		id: 2,
 		image:
-			"https://media.licdn.com/dms/image/C5603AQHYVMt4S9vhmw/profile-displayphoto-shrink_100_100/0/1607713471091?e=1683158400&v=beta&t=cHiURe8GXiyZ4DNbBLA-wmkrErt0j3lOJWmRzjso6R4",
+			"https://media.licdn.com/dms/image/C5603AQHlzJMF9_b-3g/profile-displayphoto-shrink_200_200/0/1656183665870?e=1688601600&v=beta&t=Lb2xE5O7o_oUm6i7G1gdZHIgXpxJqMDWCE2_2loLD08",
+		author: "Paola Mancia",
+		linkdin: "https://www.linkedin.com/in/paolamancia",
+		position: "Web Architect at Applaudo",
+		testimonial: `I had the privilege of working alongside Yergeni. His technical frontend skills in React, TypeScript, SCSS, and GraphQL, as well as his soft skills, were key to the success of our projects.
+		He is a natural problem-solver, team player and leader. He has a positive attitude, great communication skills, and a willingness to go above and beyond to meet project requirements. 
+		I highly recommend Yergeni, as he would be a valuable addition to any engineering team looking for exceptional talent.`,
+	},
+	{
+		id: 3,
+		image:
+			"https://media.licdn.com/dms/image/C5603AQHYVMt4S9vhmw/profile-displayphoto-shrink_200_200/0/1607713471091?e=1688601600&v=beta&t=9eAsnlrIWVTksVprmN09gC9eluigMGanShniBvlSh9M",
 		author: "Brian Wong",
 		linkdin: "https://www.linkedin.com/in/brianwongcpa/",
 		position: "Product Manager at REEF",
@@ -41,7 +52,7 @@ const testimonials: TestimonialType[] = [
 	},
 ];
 
-function Testimonials() {;
+function Testimonials() {
 	return (
 		<Element
 			name="testimonials"
@@ -52,12 +63,13 @@ function Testimonials() {;
 					<p className="py-6">Check out what coworkers said about me!</p>
 				</SectionTitle>
 				<div className="max-w-screen-lg mx-auto flex flex-col w-full h-full">
-					<div className="md:mb-0">
+					<div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 content-start">
 						{testimonials.map(
 							({ id, author, image, linkdin, position, testimonial }) => (
 								<div
 									key={id}
-									className="mb-6 flex flex-col justify-center gap-2"
+									className="mb-6 flex flex-col gap-2"
+									// className="mb-6 flex flex-col justify-center gap-2"
 								>
 									<img
 										src={image}
