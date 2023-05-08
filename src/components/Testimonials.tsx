@@ -68,8 +68,8 @@ function Testimonials() {
 							({ id, author, image, linkdin, position, testimonial }) => (
 								<div
 									key={id}
-									className="mb-6 flex flex-col gap-2"
-									// className="mb-6 flex flex-col justify-center gap-2"
+									className={`mb-6 flex flex-col gap-2 ${id === 3 ? 'md:col-span-2' : ''}`}
+									// className="mb-6 flex flex-col gap-2"
 								>
 									<img
 										src={image}
