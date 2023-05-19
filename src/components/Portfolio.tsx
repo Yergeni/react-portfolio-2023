@@ -4,7 +4,8 @@ import parkosWebpay from "assets/portfolio/parkosWebpay.png";
 import covid19Tracker from "assets/portfolio/covid19Tracker.png";
 import amazonClone from "assets/portfolio/amazonClone.png";
 import crownStudy from "assets/portfolio/crownStudy.png";
-// import discordClone from "assets/portfolio/discordClone.png";
+import twitterClone from "assets/portfolio/twitterClone.png";
+import discordClone from "assets/portfolio/discordClone.png";
 import coduxMovies from "assets/portfolio/coduxMovies.png";
 import netflixClone from "assets/portfolio/netflixClone.png";
 import noProtectCMS from "assets/portfolio/noProtectCMS.png";
@@ -36,6 +37,20 @@ function Portfolio() {
 			title: "NO Protect Web Portal",
 			alt: "NO Protect Web Portal",
 			demoLink: "https://web-protect-staging.nowlsp.com/landing/",
+		},
+		{
+			src: twitterClone,
+			title: "Twitter Clone w/ T3 Stack",
+			alt: "Twitter Clone",
+			demoLink: "https://yero-twitter-clone.netlify.app/",
+			codeLink: "https://github.com/Yergeni/twitter-clone",
+		},
+		{
+			src: discordClone,
+			title: "Basic Discord Clone",
+			alt: "Discord Clone",
+			demoLink: "https://yero-discord-clone.netlify.app/",
+			codeLink: "https://github.com/Yergeni/discord-clone",
 		},
 		{
 			src: crownStudy,
@@ -74,21 +89,14 @@ function Portfolio() {
 		},
 		{
 			src: netflixClone,
-			title: "Netflix Basic Clone",
+			title: "Basic Netflix Clone",
 			alt: "Netflix Clone",
 			demoLink: "https://netflix-clone-e03a2.web.app/",
 			codeLink: "https://github.com/Yergeni/basic-netflix-clone",
 		},
-		// {
-		// 	src: discordClone,
-		// 	title: "Discord Basic Clone",
-		// 	alt: "Discord Clone",
-		// 	demoLink: "https://discord-clone-c3c10.web.app/",
-		// 	codeLink: "https://github.com/Yergeni/discord-clone",
-		// },
 		{
 			src: amazonClone,
-			title: "Amazon Basic Clone",
+			title: "Basic Amazon Clone",
 			alt: "amazonClone",
 			demoLink: "https://clone-4a1c8.web.app/",
 			codeLink: "https://github.com/Yergeni/amazon-clone",
