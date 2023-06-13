@@ -1,17 +1,18 @@
 import { Element } from "react-scroll";
 
 import parkosWebpay from "assets/portfolio/parkosWebpay.png";
-import covid19Tracker from "assets/portfolio/covid19Tracker.png";
-import amazonClone from "assets/portfolio/amazonClone.png";
-import crownStudy from "assets/portfolio/crownStudy.png";
-import twitterClone from "assets/portfolio/twitterClone.png";
-import discordClone from "assets/portfolio/discordClone.png";
-import coduxMovies from "assets/portfolio/coduxMovies.png";
-import netflixClone from "assets/portfolio/netflixClone.png";
 import noProtectCMS from "assets/portfolio/noProtectCMS.png";
 import noProtectWebPortal from "assets/portfolio/noProtectWebPortal.png";
+import mernAuthBoilerplate from "assets/portfolio/mernAuthBoilerplate.png";
+import twitterClone from "assets/portfolio/twitterClone.png";
+// import discordClone from "assets/portfolio/discordClone.png";
+import crownStudy from "assets/portfolio/crownStudy.png";
 import hangmanGame from "assets/portfolio/hangmanGame.png";
 import notes from "assets/portfolio/notes.png";
+import coduxMovies from "assets/portfolio/coduxMovies.png";
+import covid19Tracker from "assets/portfolio/covid19Tracker.png";
+import netflixClone from "assets/portfolio/netflixClone.png";
+import amazonClone from "assets/portfolio/amazonClone.png";
 
 import SectionTitle from "./common/SectionTitle";
 
@@ -39,19 +40,26 @@ function Portfolio() {
 			demoLink: "https://web-protect-staging.nowlsp.com/landing/",
 		},
 		{
+			src: mernAuthBoilerplate,
+			title: "MERN Auth Boilerplate",
+			alt: "MERN Auth",
+			demoLink: "https://yero-mern-auth-boilerplate.netlify.app/",
+			codeLink: "https://github.com/Yergeni/mern-auth-boilerplate",
+		},
+		{
 			src: twitterClone,
 			title: "Twitter Clone w/ T3 Stack",
 			alt: "Twitter Clone",
 			demoLink: "https://yero-twitter-clone.netlify.app/",
 			codeLink: "https://github.com/Yergeni/twitter-clone",
 		},
-		{
-			src: discordClone,
-			title: "Basic Discord Clone",
-			alt: "Discord Clone",
-			demoLink: "https://yero-discord-clone.netlify.app/",
-			codeLink: "https://github.com/Yergeni/discord-clone",
-		},
+		// {
+		// 	src: discordClone,
+		// 	title: "Basic Discord Clone",
+		// 	alt: "Discord Clone",
+		// 	demoLink: "https://yero-discord-clone.netlify.app/",
+		// 	codeLink: "https://github.com/Yergeni/discord-clone",
+		// },
 		{
 			src: crownStudy,
 			title: "Crown Clothes",
