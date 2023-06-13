@@ -9,8 +9,9 @@ import twitterClone from "assets/portfolio/twitterClone.png";
 import crownStudy from "assets/portfolio/crownStudy.png";
 import hangmanGame from "assets/portfolio/hangmanGame.png";
 import notes from "assets/portfolio/notes.png";
-import coduxMovies from "assets/portfolio/coduxMovies.png";
 import covid19Tracker from "assets/portfolio/covid19Tracker.png";
+import lotrInfo from "assets/portfolio/lotrInfo.png";
+import coduxMovies from "assets/portfolio/coduxMovies.png";
 import netflixClone from "assets/portfolio/netflixClone.png";
 import amazonClone from "assets/portfolio/amazonClone.png";
 
@@ -87,6 +88,13 @@ function Portfolio() {
 			alt: "Covid19 Tracker",
 			demoLink: "https://covi19-tracker-a9817.web.app/",
 			codeLink: "https://github.com/Yergeni/covi19-tracker",
+		},
+		{
+			src: lotrInfo,
+			title: "LOTR Info",
+			alt: "LOTR Info",
+			demoLink: "https://yero-lotr-info.netlify.app/",
+			codeLink: "https://github.com/Yergeni/liblab_project",
 		},
 		{
 			src: coduxMovies,
