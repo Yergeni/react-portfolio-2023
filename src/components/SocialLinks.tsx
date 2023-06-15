@@ -1,53 +1,53 @@
-import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { LinkType } from "./common/types";
 
+const links: LinkType[] = [
+	{
+		id: 1,
+		child: (
+			<>
+				LinkedIn <FaLinkedin size={30} />
+			</>
+		),
+		href: "https://www.linkedin.com/in/cabranesyergeni",
+		style: "rounded-tr-md bg-blue-600",
+	},
+	{
+		id: 2,
+		child: (
+			<>
+				Mail <HiOutlineMail size={30} />
+			</>
+		),
+		href: "mailto:yergenis@gmail.com",
+		style: "bg-gray-500",
+	},
+	{
+		id: 3,
+		child: (
+			<>
+				GitHub <FaGithub size={30} />
+			</>
+		),
+		href: "https://github.com/Yergeni",
+		style: "bg-slate-900",
+	},
+	{
+		id: 4,
+		child: (
+			<>
+				Resume <BsFillPersonLinesFill size={30} />
+			</>
+		),
+		href: "https://drive.google.com/file/d/1NOxNK4wlYz6d0k8gu8ZJk2P24_lNGzLA/view?usp=sharing",
+		style: "rounded-br-md bg-emerald-600",
+	},
+];
+
 function SocialLinks() {
-	const links: LinkType[] = [
-		{
-			id: 1,
-			child: (
-				<>
-					LinkedIn <FaLinkedin size={30} />
-				</>
-			),
-			href: "https://www.linkedin.com/in/cabranesyergeni",
-			style: "rounded-tr-md bg-blue-600",
-		},
-		{
-			id: 2,
-			child: (
-				<>
-					Mail <HiOutlineMail size={30} />
-				</>
-			),
-			href: "mailto:yergenis@gmail.com",
-			style: "bg-gray-500",
-		},
-		{
-			id: 3,
-			child: (
-				<>
-					Resume <FaGithub size={30} />
-				</>
-			),
-			href: "https://github.com/Yergeni",
-			style: "bg-slate-900",
-		},
-		{
-			id: 4,
-			child: (
-				<>
-					Resume <BsFillPersonLinesFill size={30} />
-				</>
-			),
-			href: "https://drive.google.com/file/d/1NOxNK4wlYz6d0k8gu8ZJk2P24_lNGzLA/view?usp=sharing",
-			style: "rounded-br-md bg-emerald-600",
-		},
-	];
 
 	return (
 		<div className="hidden lg:flex flex-col top-[45%] left-0 fixed z-40">

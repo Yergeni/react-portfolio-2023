@@ -62,8 +62,13 @@ function About() {
 				<p className="text-xl">
 					I am a Front-End Engineer with more than 6 years of working
 					experience, capable of transforming UI/UX designs into responsive and
-					well-structured web applications. I love to work in web projects using
-					React, Material-UI, and GraphQL.
+					well-structured web applications. Building easy-to-use and
+					user-friendly web interfaces is truly a passion of mine. 
+					<br />
+					I actively seek out new technologies and stay up to date on industry trends and
+					advancements. This has allowed me to stay ahead of the curve and
+					deliver exceptional work to all my employers, including those I have
+					worked for on a project basis.
 				</p>
 				<h2 className="pt-8 pb-4 text-2xl">Contact Details</h2>
 				<ul style={{ listStyleType: "circle" }} className="pl-4">
