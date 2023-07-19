@@ -6,7 +6,7 @@ import SectionTitle from "./common/SectionTitle";
 
 type TestimonialType = {
 	id: number;
-	image: string;
+	// image: string;
 	author: string;
 	linkdin: string;
 	position: string;
@@ -16,8 +16,8 @@ type TestimonialType = {
 const testimonials: TestimonialType[] = [
 	{
 		id: 1,
-		image:
-			"https://media.licdn.com/dms/image/C4E03AQFPGACeAoYvPw/profile-displayphoto-shrink_200_200/0/1581476270626?e=1687996800&v=beta&t=lLKSGZiJNSfVs5Qw3hPHGmGZhbiP-6fLblml5wLJNAw",
+		// image:
+		// 	"https://media.licdn.com/dms/image/C4E03AQFPGACeAoYvPw/profile-displayphoto-shrink_200_200/0/1581476270626?e=1687996800&v=beta&t=lLKSGZiJNSfVs5Qw3hPHGmGZhbiP-6fLblml5wLJNAw",
 		author: "Alejandro Hernandez",
 		linkdin: "https://www.linkedin.com/in/al3j0/",
 		position: "SRE at Capital One",
@@ -32,8 +32,8 @@ const testimonials: TestimonialType[] = [
 	},
 	{
 		id: 2,
-		image:
-			"https://media.licdn.com/dms/image/C5603AQHlzJMF9_b-3g/profile-displayphoto-shrink_200_200/0/1656183665870?e=1688601600&v=beta&t=Lb2xE5O7o_oUm6i7G1gdZHIgXpxJqMDWCE2_2loLD08",
+		// image:
+		// 	"https://media.licdn.com/dms/image/C5603AQHlzJMF9_b-3g/profile-displayphoto-shrink_200_200/0/1656183665870?e=1688601600&v=beta&t=Lb2xE5O7o_oUm6i7G1gdZHIgXpxJqMDWCE2_2loLD08",
 		author: "Paola Mancia",
 		linkdin: "https://www.linkedin.com/in/paolamancia",
 		position: "Web Architect at Applaudo",
@@ -43,8 +43,8 @@ const testimonials: TestimonialType[] = [
 	},
 	{
 		id: 3,
-		image:
-			"https://media.licdn.com/dms/image/C5603AQHYVMt4S9vhmw/profile-displayphoto-shrink_200_200/0/1607713471091?e=1688601600&v=beta&t=9eAsnlrIWVTksVprmN09gC9eluigMGanShniBvlSh9M",
+		// image:
+		// 	"https://media.licdn.com/dms/image/C5603AQHYVMt4S9vhmw/profile-displayphoto-shrink_200_200/0/1607713471091?e=1688601600&v=beta&t=9eAsnlrIWVTksVprmN09gC9eluigMGanShniBvlSh9M",
 		author: "Brian Wong",
 		linkdin: "https://www.linkedin.com/in/brianwongcpa/",
 		position: "Product Manager at REEF",
@@ -65,19 +65,18 @@ function Testimonials() {
 				<div className="max-w-screen-lg mx-auto flex flex-col w-full h-full">
 					<div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 content-start">
 						{testimonials.map(
-							({ id, author, image, linkdin, position, testimonial }) => (
+							({ id, author, linkdin, position, testimonial }) => (
 								<div
 									key={id}
 									className={`mb-6 flex flex-col gap-2 ${id === 3 ? 'md:col-span-2' : ''}`}
-									// className="mb-6 flex flex-col gap-2"
 								>
-									<img
+									{/* <img
 										src={image}
 										className="w-32 rounded-full mx-auto"
 										alt={author}
-									/>
-									<div className="flex justify-center">
-										<h5 className="mb-4 text-xl font-semibold text-center">
+									/> */}
+									<div className="flex justify-center items-center">
+										<h5 className="text-2xl font-semibold text-center">
 											{author}
 										</h5>
 										<a
@@ -89,7 +88,7 @@ function Testimonials() {
 											<FaLinkedin size={24} />
 										</a>
 									</div>
-									<h6 className="mb-4 text-lg font-semibold text-center">
+									<h6 className="mb-4 text-lg font-semibold text-center text-neutral-300">
 										{position}
 									</h6>
 									<ShowMore text={testimonial} />

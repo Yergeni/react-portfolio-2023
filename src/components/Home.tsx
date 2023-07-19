@@ -16,8 +16,7 @@ function Home() {
 					<hr className="mt-4 border-t-1 bg-neutral-50 opacity-20" />
 					<p className="text-gray-500 py-4 max-w-xl">
 						I'm a Florida based{" "}
-						<span className="font-bold">Front-End Engineer</span>. I work at
-						REEF Technology Inc.
+						<span className="font-bold text-lg">Front End Engineer</span>.
 					</p>
 					<div>
 						{/* use the "group" class to match hover the icon from the button */}

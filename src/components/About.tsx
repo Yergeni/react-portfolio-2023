@@ -60,15 +60,18 @@ function About() {
 			<div className="max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full">
 				<SectionTitle title="About" />
 				<p className="text-xl">
-					I am a Front-End Engineer with more than 6 years of working
-					experience, capable of transforming UI/UX designs into responsive and
-					well-structured web applications. Building easy-to-use and
-					user-friendly web interfaces is truly a passion of mine. 
-					<br />
-					I actively seek out new technologies and stay up to date on industry trends and
-					advancements. This has allowed me to stay ahead of the curve and
-					deliver exceptional work to all my employers, including those I have
-					worked for on a project basis.
+					I am a Front End Engineer with 6 years of experience with solid fundamentals
+					in Front End technologies working in small and large teams to develop
+					interactive, user-friendly, and feature-rich web applications. I am a
+					self-motivated and lifelong learner familiar with modern web
+					development. Building easy-to-use web interfaces is truly a passion of mine.
+				</p>
+				<br />
+				<p className="text-xl">
+					I actively seek out new technologies and stay up to date on industry
+					trends and advancements. This has allowed me to stay ahead of the
+					curve and deliver exceptional work to all my employers, including
+					those I have worked for on a project basis.
 				</p>
 				<h2 className="pt-8 pb-4 text-2xl">Contact Details</h2>
 				<ul style={{ listStyleType: "circle" }} className="pl-4">
